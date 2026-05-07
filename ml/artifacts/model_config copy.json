@@ -1,0 +1,31 @@
+{
+  "model_text_only": "CalibratedClassifierCV",
+  "model_hybrid": "CalibratedClassifierCV",
+  "threshold_text": 0.3699999999999999,
+  "threshold_hybrid": 0.4199999999999998,
+  "ml_weight": 0.8,
+  "rule_weight": 0.2,
+  "hybrid_features": [
+    "text_length",
+    "word_count",
+    "missing_salary",
+    "missing_company_profile",
+    "missing_requirements",
+    "missing_benefits",
+    "missing_location",
+    "total_missing_fields",
+    "suspicious_keyword_count",
+    "local_rule_score",
+    "has_company_logo",
+    "has_questions",
+    "telecommuting"
+  ],
+  "translate_fields": [
+    "title",
+    "description",
+    "requirements",
+    "company_profile",
+    "benefits"
+  ],
+  "tfidf_vocab_size": 30000
+}
